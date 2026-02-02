@@ -1,0 +1,67 @@
+.rojo {
+    color: red
+}
+.marron {
+    color: brown;
+}
+.azul {
+    color: purple;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: darkred;
+}
+
+h2 {
+    color: darkorange;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
+.marte {
+    color: red;
+}
+
+.venus {
+    color: yellow;
+}
+
+.nou {
+    color: purple;
+}
+
+:root {
+    --color-principal: darkblue;
+}
+
+h1 {
+    color: var(--color-principal);
+}
+
+a {
+    color: var(--color-principal);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.rectangulo {
+    --altura: 100px;        
+    height: var(--altura);
+    width: calc(var(--altura) * 2);
+
+    background-color: lightblue;
+    border: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
